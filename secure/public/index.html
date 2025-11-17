@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield - Professional Cybersecurity Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>CyberShield</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Enterprise-Grade Cybersecurity Solutions</h1>
+                <p>Protect your business from evolving cyber threats with our comprehensive security services and expert team</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Started</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-card">
+                <h3>99.9%</h3>
+                <p>Threat Prevention Rate</p>
+            </div>
+            <div class="stat-card">
+                <h3>24/7</h3>
+                <p>Security Monitoring</p>
+            </div>
+            <div class="stat-card">
+                <h3>500+</h3>
+                <p>Enterprise Clients</p>
+            </div>
+            <div class="stat-card">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">Comprehensive cybersecurity solutions for your business</p>
+            <div class="services-grid" id="servicesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose CyberShield?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Advanced Technology</h3>
+                    <p>AI-powered threat detection and machine learning algorithms for proactive security</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Expert Team</h3>
+                    <p>Certified security professionals with decades of combined experience</p>
+                </div>
+                <div class="feature-card">
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock monitoring and rapid incident response team</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Compliance Ready</h3>
+                    <p>Full compliance with GDPR, HIPAA, ISO 27001, and industry standards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <p class="section-subtitle">Choose the perfect plan for your business needs</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <p class="price">$999<span>/month</span></p>
+                    <ul class="features-list">
+                        <li>Basic threat detection</li>
+                        <li>Email security</li>
+                        <li>Monthly reports</li>
+                        <li>Business hours support</li>
+                    </ul>
+                    <button class="btn btn-secondary">Choose Plan</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="badge">Popular</div>
+                    <h3>Professional</h3>
+                    <p class="price">$2,999<span>/month</span></p>
+                    <ul class="features-list">
+                        <li>Advanced threat detection</li>
+                        <li>24/7 monitoring</li>
+                        <li>Incident response</li>
+                        <li>24/7 priority support</li>
+                        <li>Quarterly security audits</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <p class="price">Custom<span>/month</span></p>
+                    <ul class="features-list">
+                        <li>Full managed security</li>
+                        <li>Dedicated security team</li>
+                        <li>Custom integrations</li>
+                        <li>Unlimited support</li>
+                        <li>Executive briefings</li>
+                    </ul>
+                    <button class="btn btn-secondary">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p class="section-subtitle">Let's discuss your cybersecurity needs</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Address</h3>
+                        <p>123 Security Street, Tech City, TC 12345</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Email</h3>
+                        <p>contact@cybershield.com</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select id="service">
+                            <option value="">Select Service</option>
+                            <option value="threat-intelligence">Threat Intelligence</option>
+                            <option value="data-protection">Data Protection</option>
+                            <option value="incident-response">Incident Response</option>
+                            <option value="identity-management">Identity Management</option>
+                            <option value="vulnerability">Vulnerability Assessment</option>
+                            <option value="compliance">Compliance Management</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest cybersecurity insights and threats directly to your inbox</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CyberShield</h3>
+                    <p>Protecting your digital assets with enterprise-grade security solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Threat Intelligence</a></li>
+                        <li><a href="#">Data Protection</a></li>
+                        <li><a href="#">Incident Response</a></li>
+                        <li><a href="#">Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CyberShield. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

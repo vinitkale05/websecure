@@ -1,0 +1,46 @@
+{
+  "name": "cybershield-website",
+  "version": "1.0.0",
+  "description": "Professional cybersecurity company website",
+  "keywords": [
+    "cybersecurity",
+    "website",
+    "express",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "author": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@vercel/analytics": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cors": "latest",
+    "express": "latest",
+    "fs": "latest",
+    "lucide-react": "^0.454.0",
+    "next": "16.0.3",
+    "path": "latest",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "19.2.5",
+    "@types/react-dom": "19.2.3",
+    "postcss": "^8.5",
+    "tailwindcss": "4.1.17",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
