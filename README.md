@@ -1,4 +1,4 @@
-# https-websecur.vercel.app-
+# websecur
 # WebSecur
 
 WebSecur is a web-focused security utility and demo site deployed at https://websecur.vercel.app/. It provides a showcase of modern best-practice web security and infrastructure choices (HTTPS, HSTS, TLS 1.2/1.3, CDN-backed delivery, environment-isolated configuration), and is deployed on Vercel.
